@@ -1,0 +1,12 @@
+version: "0.1"
+
+services:
+  db:
+    image: "postgres:latest"
+    container_name: "lab-2-db"
+    environment:
+      - "POSTGRES_USER=user"
+      - "POSTGRES_PASSWORD=123"
+      - "POSTGRES_DB=db"
+    ports:
+      - 1111:5432
