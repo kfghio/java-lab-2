@@ -1,10 +1,9 @@
-package models;
+package org.example.models;
 
 
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.ManyToAny;
 
 import java.util.ArrayList;
 import java.util.Date;

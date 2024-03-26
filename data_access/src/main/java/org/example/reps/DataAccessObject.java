@@ -1,4 +1,4 @@
-package reps;
+package org.example.reps;
 
 import java.util.Collection;
 import java.util.Optional;

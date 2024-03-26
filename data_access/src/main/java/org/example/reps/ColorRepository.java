@@ -1,6 +1,6 @@
-package reps;
+package org.example.reps;
 
-import models.Color;
+import org.example.models.Color;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 

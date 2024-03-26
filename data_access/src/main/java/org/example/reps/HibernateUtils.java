@@ -1,4 +1,4 @@
-package reps;
+package org.example.reps;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

@@ -1,10 +1,10 @@
-package reps;
+package org.example.reps;
 
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Root;
-import models.Cat;
-import models.Owner;
+import org.example.models.Cat;
+import org.example.models.Owner;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 

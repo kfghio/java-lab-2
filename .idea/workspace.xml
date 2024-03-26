@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6d48350-b3de-4775-bc51-135cb30db4e9" name="Changes" comment="create project">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business_logic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/java/models/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/java/models/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/java/models/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/java/reps/CatRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/java/reps/ColorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/java/reps/DataAccessObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/java/reps/HibernateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/java/reps/OwnerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_access/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="d6d48350-b3de-4775-bc51-135cb30db4e9" name="Changes" comment="Feat: added db, models and reps">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business_logic/src/main/java/org/example/Controllers/CatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business_logic/src/main/java/org/example/Controllers/ColorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business_logic/src/main/java/org/example/Controllers/OwnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business_logic/src/main/java/org/example/Controllers/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business_logic/src/main/java/org/example/Enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business_logic/src/main/java/org/example/Other/ArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_access/src/test/java/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business_logic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business_logic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/java/models/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/java/org/example/models/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/java/models/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/java/org/example/models/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/java/models/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/java/org/example/models/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/java/reps/CatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/java/org/example/reps/CatRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/java/reps/ColorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/java/org/example/reps/ColorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/java/reps/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/java/org/example/reps/DataAccessObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/java/reps/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/java/org/example/reps/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/java/reps/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/java/org/example/reps/OwnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_access/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data_access/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Docker.data_access/docker-compose.yaml: Compose Deployment.executor": "Run",
+    "JUnit.Tests.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -73,7 +77,34 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/business_logic/src/main/java/org/example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Tests">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="data_access" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data_access" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="data_access/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -83,8 +114,15 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Docker.data_access/docker-compose.yaml: Compose Deployment" />
+      <item itemvalue="JUnit.Tests" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Docker.data_access/docker-compose.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -104,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711479859778</updated>
-      <workItem from="1711479860797" duration="8305000" />
+      <workItem from="1711479860797" duration="12512000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <option name="closed" value="true" />
@@ -114,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711480065425</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feat: added db, models and reps">
+      <option name="closed" value="true" />
+      <created>1711488250869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711488250869</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
-    <option name="LAST_COMMIT_MESSAGE" value="create project" />
+    <MESSAGE value="Feat: added db, models and reps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: added db, models and reps" />
   </component>
 </project>
